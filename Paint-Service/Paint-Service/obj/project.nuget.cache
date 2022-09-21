@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "13Oy5SQ9RxTvut53HcTGz7yV1hoNDh0WyWoH0kbc8/cW5byI69EM5EbVWIRteAIQjH5yxw6eeoWpSGOGkCWT7A==",
+  "success": true,
+  "projectFilePath": "C:\\Paint-Service\\Paint-Service\\Paint-Service\\Paint-Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marwasaleh\\.nuget\\packages\\microsoft.typescript.msbuild\\4.8.3\\microsoft.typescript.msbuild.4.8.3.nupkg.sha512"
+  ],
+  "logs": []
+}

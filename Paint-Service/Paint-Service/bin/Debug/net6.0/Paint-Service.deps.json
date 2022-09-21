@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Paint-Service/1.0.0": {
+        "dependencies": {
+          "Microsoft.TypeScript.MSBuild": "4.8.3"
+        },
+        "runtime": {
+          "Paint-Service.dll": {}
+        }
+      },
+      "Microsoft.TypeScript.MSBuild/4.8.3": {}
+    }
+  },
+  "libraries": {
+    "Paint-Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.TypeScript.MSBuild/4.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NDHlyZ8MvdpB+qWn8ZAXosr2O2Fe6Ch6nqHeHAE2YKJ7R9xNM7mcIjPfYDtjRXvVZPh1cLi0SruDLKTk6o7mcA==",
+      "path": "microsoft.typescript.msbuild/4.8.3",
+      "hashPath": "microsoft.typescript.msbuild.4.8.3.nupkg.sha512"
+    }
+  }
+}
