@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Paint";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <div class="vertical-menu">
+        <button type="button" class="btn btn-primary" id="button" name="Rectangle" onclick="TSButton(this.name)">Rectangle</button>
+        <br />
+        <br />
+        <button type="button" class="btn btn-primary" id="button" name="Circle" onclick="TSButton(this.name)">Circle</button>
+        <br />
+        <br />
+        <button type="button" class="btn btn-primary" id="button" name="Line" onclick="TSButton(this.name)">Line</button>
+    </div>
+
+    <div id="canvas-container">
+        <canvas id="paintCanvas" width="900" height="800"></canvas>
+    </div>
+</div>

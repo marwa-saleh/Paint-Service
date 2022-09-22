@@ -6,9 +6,12 @@
     "removeComments": false,
     "sourceMap": true,
     "target": "es5",
-    "outDir": "wwwroot/js"
+    //"target": "ES2019",
+    "outDir": "wwwroot/js",
+    //"esModuleInterop": true
+    //"target": "ESNext"
   },
   "include": [
     "scripts/**/*"
-  ]
+  ],
 }

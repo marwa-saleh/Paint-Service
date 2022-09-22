@@ -39,15 +39,24 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <!-- <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2022 - Paint_Service - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
-    </footer>
+    </footer> -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/js/app.js"></script>
+    <script src="~/js/View/App.js"></script>
+    <script src="~/js/View/CanvasContext.js"></script>
+    <script src="~/js/UIBusinessLogic/Controller/UIController.js"></script>
+    <script src="~/js/UIBusinessLogic/Model/AShape.js"></script>
+    <script src="~/js/UIBusinessLogic/Model/IContext.js"></script>
+    <script src="~/js/UIBusinessLogic/Model/IState.js"></script>
+    <script src="~/js/UIBusinessLogic/Model/Shape.js"></script>
+    <script src="~/js/UIBusinessLogic/Model/ActionEnum.js"></script>
+    <script src="~/js/UIBusinessLogic/Model/State.js"></script>
+    <script src="~/js/UIBusinessLogic/Model/StateFactory.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -16,3 +16,21 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.vertical-menu {
+    width: 160px;
+    float: left;
+}
+
+#canvas-container {
+    margin-left : 160px;
+}
+
+canvas {
+    border-style: ridge;
+    background: #f8f8f8;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: block;
+}
